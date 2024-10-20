@@ -14,7 +14,7 @@ body {
 header {
     background-color: #00b1af;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ header nav ul li a {
 }
 
 main {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 section {
@@ -46,7 +46,7 @@ section {
     background-size: cover;
     height: 120vh; /* Ajusta a altura para ocupar 100% da altura da viewport */
     color: white;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     text-align: center;
