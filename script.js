@@ -15,7 +15,7 @@ fetch('data.json')
             projetoDiv.innerHTML = `
                 <h3>${projeto.nome}</h3>
                 <p>${projeto.descricao}</p>
-                <a href="${projeto.link}" target="_blank">Ver projeto</a>
+                <a href="${projeto.link}" target="_blank">Read the document</a>
             `;
             projetosContainer.appendChild(projetoDiv);
         });
