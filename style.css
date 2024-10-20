@@ -42,9 +42,14 @@ section {
 }
 
 #home {
-    background: url('GIS.png') no-repeat center center/cover;
-    height: 120vh;
+    background: url('GIS.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Ajusta a altura para ocupar 100% da altura da viewport */
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .home-content h2 {
@@ -77,6 +82,22 @@ section {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    #home {
+        background-size: contain; /* Ajusta a imagem para caber em telas menores */
+        height: auto; /* Permite que a altura seja ajustada conforme o conteúdo */
+        padding: 20px; /* Adiciona espaçamento extra para dispositivos menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #home {
+        background-position: top center; /* Ajusta o posicionamento para telas muito pequenas */
+        background-size: cover;
+    }
 }
 
 #projetos-container {
