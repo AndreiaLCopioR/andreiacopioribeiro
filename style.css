@@ -89,7 +89,7 @@ section {
     #home {
         background-size: contain; /* Ajusta a imagem para caber em telas menores */
         height: auto; /* Permite que a altura seja ajustada conforme o conteúdo */
-        padding: 20px; /* Adiciona espaçamento extra para dispositivos menores */
+        padding: 10px; /* Adiciona espaçamento extra para dispositivos menores */
     }
 }
 
