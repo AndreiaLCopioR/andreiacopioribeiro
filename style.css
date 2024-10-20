@@ -44,7 +44,7 @@ section {
 #home {
     background: url('GIS.png') no-repeat center center;
     background-size: cover;
-    height: 100vh; /* Ajusta a altura para ocupar 100% da altura da viewport */
+    height: 120vh; /* Ajusta a altura para ocupar 100% da altura da viewport */
     color: white;
     display: flex;
     justify-content: center;
