@@ -19,6 +19,21 @@
             "descricao": "Um projeto de interface moderna usando CSS avançado.",
             "link": "https://exemplo.com/projeto3"
         }
+        {
+            "nome": "Projeto 4",
+            "descricao": "Este é o primeiro projeto, focado em design responsivo.",
+            "link": "https://exemplo.com/projeto1"
+        },
+        {
+            "nome": "Projeto 5",
+            "descricao": "Este projeto é uma aplicação interativa com JavaScript.",
+            "link": "https://exemplo.com/projeto2"
+        },
+        {
+            "nome": "Projeto 6",
+            "descricao": "Um projeto de interface moderna usando CSS avançado.",
+            "link": "https://exemplo.com/projeto3"
+        }
     ]
 }
 
