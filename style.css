@@ -44,8 +44,8 @@ section {
 #home {
     background-image: url('GIS2.png');
     background-repeat: no-repeat;
-    background-position: center 3cm;
-    background-size: 120% auto;
+    background-position: center 2cm;
+    background-size: 110% auto;
 
     min-height: 120vh;
     height: auto;
