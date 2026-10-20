@@ -42,14 +42,18 @@ section {
 }
 
 #home {
-    background: url('GIS2.png') no-repeat center center;
-    background-size: cover;
-    height: 80vh; /* Ajusta a altura para ocupar 100% da altura da viewport */
+    background-image: url('GIS2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+
     color: white;
-    
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .home-content h2 {
