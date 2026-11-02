@@ -41,7 +41,7 @@ section {
     text-align: center;
 }
 
-#home {
+/*#home {
     background-image: url('GIS2.png');
     background-repeat: no-repeat;
     
@@ -50,6 +50,21 @@ section {
     min-height: 120vh;
     height: auto;
     width: 100%;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}*/
+#home {
+    background-image: url('GIS2.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    background-size: 100% auto;
+
+    width: 100%;
+    min-height: 150vh;
+    height: auto;
 
     color: white;
     text-align: center;
